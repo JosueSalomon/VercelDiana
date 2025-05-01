@@ -28,7 +28,7 @@ app.use('/pago', pagoRouter)
 
 //Servidor Raiz.
 app.get('/', (req: Request, res: Response) => {
-    res.send('Root server is on siuuuuuuuuu todo funciona bien ');
+    res.send('Root server is on :3');
 });
 
 //Mensaje de consola que dice que funciona.
